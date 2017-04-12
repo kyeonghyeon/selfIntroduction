@@ -1,0 +1,133 @@
+
+header, .jumbotron, footer,.aboutInfo, .works, .personal {
+    font-family: 'Coming Soon', cursive;
+}
+
+// body
+
+body {
+    font-family: 'Coming Soon', cursive;
+    background-image: url("back.jpg");
+    background-size: cover;
+}
+
+header {
+    font-family: 'Coming Soon', cursive;
+    margin-top: 15px;
+    border-bottom: 1px solid #000;
+}
+
+header h1 {
+    margin-top: 30px;
+}
+
+header nav {
+    margin-top: 100px;
+    padding-bottom: 0;
+}
+
+header nav li {
+    display: inline;
+    padding-left: 50px;
+}
+
+// home
+.jumbotron {
+    min-height: 500px;
+    margin-top: 30px;
+    background-image: url("https://scontent-icn1-1.xx.fbcdn.net/v/t31.0-8/1403696_531069656984469_794544935_o.jpg?oh=dbbcb64c85a42f49029a17c8c5ec5b68&oe=596B2714");
+    background-size: cover;
+    background-position: center center;
+}
+
+.personal {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+// about
+.title {
+    padding-top: 20px;
+    border: 1px, solid, #F00;
+    text-align: center;
+}
+
+.likeDis {
+    padding: 20px 0px;
+}
+.likeDis figure {
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.likeDis figure img {
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+}
+
+.likeDis-description {
+    padding: 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+// works
+.filmography figure{
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.video {
+    padding : 20px;
+}
+
+.work-description {
+    padding: 0;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.filmography {
+
+}
+
+.filmography figure{
+    text-align: center;
+    margin-bottom: 20px
+}
+
+.filmography figure img {
+    width: 100%;
+}
+
+
+
+// footer
+
+footer {
+    padding-top: 20px;
+    bottom: 0;
+    border-top: 1px solid #000;
+    bottom: 5px;
+}
+
+footer h5 {
+    margin-top: 0;
+}
+
+footer li {
+    display: inline-block;
+    
+}
+
+.logo img {
+    width: 20px;
+}
+
+.btn {
+    position: relative;
+    float: right;
+    // right: 150px;
+    bottom: 40px;
+}

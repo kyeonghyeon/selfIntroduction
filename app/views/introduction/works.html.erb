@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Bootstrap Theme Simply Me</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="introduction.scss">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    
+    <body>
+        <header class="container">
+            <div class="row">
+                <h1 class="col-sm-8">Kyeonghyeon</br>
+                <small>self-introduction page</small></h1>
+                <nav class="col-sm-4">
+                    <ul>
+                    <li><a href="/introduction/home">home</a></li>
+                    <li><a href="/introduction/about">about</a></li>
+                    <li><a href="/introduction/works">works</a></li>
+                    </ul>
+                    </nav>
+                    
+                    </div>
+                    </header>
+                    
+        <div class="container">
+            <div class="works">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="video">
+                        <div class="embed-responsive embed-responsive-16by9" align="middle">
+                            <iframe class="responsive video" src="https://www.youtube.com/embed/vdnnfosPjbE"></iframe>
+                            </div>
+                            </div>
+                            </div>
+                <div class="col-md-3"><div class="work-description">
+                    <h1>Works</br><small>What I've Done in University</small></h1>
+                    <p></br>Majoring in <mark>'Film, Tv, Multimedia'</mark>, I've learned to catch the messages that people want to hear from somebody 
+                and take it into a story, and finally make it reach their mind.
+                </br><br>Now, I want to use this skill to touch the mind of people not with the movie, but with some <mark>COMPUTER PROGRAMS</mark>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="filmography">
+            <div class="row">
+                <div class="col-md-3">
+                    <figure><%= image_tag 'work1.png' %><figcaption>[short film]"Then, Us"</figcaption></figure></div>
+                <div class="col-md-3">
+                    <figure><%= image_tag 'work2.png' %><figcaption>[documentary]"Korean"</figcaption></figure></div>
+                <div class="col-md-3">
+                    <figure><%= image_tag 'work3.png' %><figcaption>[drama]"Prank Call"</figcaption></figure></div>
+                <div class="col-md-3">
+                    <figure><%= image_tag 'work4.png' %><figcaption>[report video]"Global Walkathon Report"</figcaption></figure></div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+        
+        <footer class="container">
+            <div class="row">
+                <h5 class="col-sm-3">Please feel free to contact me via:</h5>
+                <ul class="col-sm-9">
+                    <li class="col-sm-2"><a href="http://int2016.egloos.com/"><%= image_tag 'egloos.png', :width => 60, :height => 20 %></a></li>
+                    <li class="col-sm-2"><a href="https://vimeo.com/user28992727"><%= image_tag 'vimeo.png', :width => 20, :height => 20 %></a></li>
+                    <li class="col-sm-5"></li>
+
+      </ul>
+      <a class="btn btn-default" href="http://blog.naver.com/myworld0427">Want more?</a>
+    </div>
+  </footer>
+        
+        
+    </body>
+</html>
